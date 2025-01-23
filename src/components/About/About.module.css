@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+.container{
+    color:var(--color-text);
+    border-radius: 100px;
+    padding:5%;
+    margin : 15% 10%;
+    background-color: rgb(22, 22, 22);
+}
+
+.title{    
+    font-size: 2rem;
+  font-family: "Unkempt", serif;
+  text-transform: uppercase;
+  margin-left: 8%;
+  text-align: center;
+
+} 
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.aboutImage{
+    width:45%;
+    height:auto;
+    transition: 0.6s ease-in;
+}
+.aboutImage:hover{
+transform: scale(1.02);
+}
+
+.aboutItems{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.aboutItem{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    border-radius: 20%;
+    padding:5%;
+    list-style: none;
+
+    background: linear-gradient(90deg,rgba(28, 27, 27,1)0%,rgba(169, 39, 115, 0.5)100% );
+    background-size: 0 100%;
+        transition: 0.5s  ease-in-out;
+
+}
+.aboutItem:hover{
+
+background-size: 100% 100%;
+    color:var(--color-secondary);
+}
+.aboutItemIcon{
+    width:15%;
+    height:15%;
+}
+
+
+
+@media screen and (max-width:900px){
+    .content{
+        display:flex;
+        flex-direction: column;
+    }
+    .aboutImage{
+        width:100%;
+        margin:10%;
+    }
+
+    .title{
+    text-align: center;
+    }
+    
+  
+
+    }

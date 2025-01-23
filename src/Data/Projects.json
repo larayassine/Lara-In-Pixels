@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Peach And Cream Cafe",
+        "imageSrc": "/Projects/project1",
+        "description": "A sleek, responsive website for a local cafe, featuring the menu, location, and special offers. Customers can easily explore the offerings and place orders online for delivery or pickup.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo ": "",
+        "source": ""
+    },
+    {
+        "title": "Peach And Cream Cafe",
+        "imageSrc": "/Projects/project2",
+        "description": "A sleek, responsive website for a local cafe, featuring the menu, location, and special offers. Customers can easily explore the offerings and place orders online for delivery or pickup.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo ": "",
+        "source": ""
+    },
+    {
+        "title": "Peach And Cream Cafe",
+        "imageSrc": "/Projects/project3",
+        "description": "A sleek, responsive website for a local cafe, featuring the menu, location, and special offers. Customers can easily explore the offerings and place orders online for delivery or pickup.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo ": "",
+        "source": ""
+    }
+]

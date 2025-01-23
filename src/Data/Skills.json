@@ -1,0 +1,46 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "Skills/icons8-html-48.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "Skills/icons8-css-50.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "Skills/icons8-javascript-50.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "Skills/icons8-react-native-64.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "Skills/icons8-figma-48.png"
+    },
+    {
+        "title": "Webflow",
+        "imageSrc": "Skills/icons8-webflow-50.png"
+    },
+    {
+        "title": "Dart",
+        "imageSrc": "Skills/icons8-flutter-48.png"
+    },
+    {
+        "title": "MySQL",
+        "imageSrc": "Skills/icons8-my-sql-48.png"
+    },
+    {
+        "title": "Linux",
+        "imageSrc": "Skills/icons8-linux-50.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "Skills/icons8-python-48.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "Skills/icons8-java-50.png"
+    }
+]

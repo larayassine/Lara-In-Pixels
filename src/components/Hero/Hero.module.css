@@ -1,0 +1,119 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:100px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.leftSection{
+color:var(--color-text);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+z-index: 1;
+
+}
+
+.title{
+    font-size: 4rem;
+    margin-bottom: 7%;
+    
+  font-family: "Unkempt", serif;
+  
+
+}
+.description{
+    font-size: 25px;
+    font-family: var(--font-outfit);
+    margin-bottom: 5%;
+    width:70%;
+
+}
+
+.contactBtn{
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.4) 70%,rgba(169, 39, 115, 0.3) 100%);
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 10%;
+    padding:15px 25px;
+    box-shadow: 0 0 4px 0 rgba(169, 39, 115, 0.2) ;
+     transition: transform 0.4s ease, background-color 0.3s ease;
+}
+.contactBtn:hover{
+      background:linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%,rgba(169, 39, 115, 0.3) 100%);
+
+    color: rgba(169, 39, 115, 1);
+     transform: translate(0,-5px);
+}
+.heroImage{
+z-index: 1;
+animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float{
+
+    0%{
+        transform: translate(0,0px);
+
+    }
+    50%{
+
+     transform: translate(0,20px);
+    }
+     50%{
+        
+        transform: translate(0,-30px);
+    }
+}
+
+.Blur1{
+    position:absolute;
+    width:40vw;
+    height:50vw;
+    min-width:350px;
+    min-height:350px;
+    top:-10%;
+    left:4vw; 
+    border: 750px;
+    background-color: rgba(134, 26, 89,0.4);
+    filter: blur(100px);
+    z-index: 0;
+}
+.Blur2{
+    position:absolute;
+    width:40vw;
+    height:50vw;
+    min-width:350px;
+    min-height:350px;
+    top:-10%;
+    right:4vw; 
+    border: 750px;
+    background-color: rgba(169, 39, 115, 1);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width:900px){
+    .container{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .leftSection{
+        align-items: center;
+    }
+
+    .description{
+        font-size: 20px;
+        line-height: 30px;
+        width:80%;
+    }
+}
