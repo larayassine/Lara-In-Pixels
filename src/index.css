@@ -1,4 +1,5 @@
  *{
+   text-transform: capitalize;
   padding:0;
   margin:0;
   box-sizing: border-box;
@@ -7,3 +8,26 @@
  html{
     scroll-behavior: smooth;
  }
+ /* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Starts below the page */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Ends at the original position */
+  }
+}
+
+/* Apply the animation */
+.scroll-fade-in {
+  opacity: 0; /* Start off hidden */
+  animation: fadeIn 1s forwards; /* Duration of 1s */
+}
+
+/* Add animation when the element is in view */
+.in-view {
+  opacity: 1;
+  animation: fadeIn 1s forwards;
+}

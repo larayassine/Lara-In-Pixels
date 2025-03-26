@@ -8,34 +8,59 @@
   padding-top: 3%;
   z-index: 2;
   margin: 0 10%;
+  transition: all 0.3s ease-in-out;
 }
 
+/* Logo Animation */
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
+.logo:hover {
+  color: rgba(169, 39, 115, 1);
+  transform: scale(1.1);
+}
+
+/* Menu Items */
 .menu {
   display: flex;
 }
+
 .menuItems {
   list-style: none;
   display: flex;
   gap: 5%;
 }
+
 .menuItems a {
   text-decoration: none;
   color: var(--color-text);
   font-size: 1.2rem;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
+
+/* Hover Animation */
 .menuItems a:hover {
   color: rgba(169, 39, 115, 1);
+  transform: translateY(-2px);
 }
+
+/* Mobile Menu Button */
 .menuBtn {
   width: 50px;
   display: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
+
+.menuBtn:hover {
+  transform: rotate(10deg);
+}
+
 @media screen and (max-width: 750px) {
   .logo {
     font-size: 2rem;
